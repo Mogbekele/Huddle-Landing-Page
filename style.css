@@ -71,6 +71,8 @@ p {
    margin: 0 3px;
 }
 
+
+
 @media only screen and (min-width: 768px) {
     .general-container {
         background-image: url("./images/bg-desktop.svg");
@@ -108,8 +110,17 @@ p {
         padding: 0% 3% 0% 3%;
     }
 
+    .button:hover {
+        padding: 15px 65px; 
+    }
+
     .social-icon {
         text-align: right;
         clear: both;
+        padding-right: 5%;
+    }
+
+    .social-icon img {
+        width: 30px;
     }
 }
